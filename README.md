@@ -20,7 +20,7 @@ To use Simple-Worker-Learner, you need to follow these steps:
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/<username>/Simple-Worker-Learner.git
+git clone https://github.com/MortalreminderPT/Simple-Worker-Learner.git
 ```
 
 2. Install the required dependencies by running:
@@ -45,7 +45,7 @@ python workers.py
 
 6. Monitor the training progress in the console or using TensorBoard.
 
-You can customize the training parameters and the environment interface by modifying the `config` files. You can also define your own agent behaviors and reward functions by subclassing the `Agent` class.
+You can simply modify the configuration files in the `config` folder.  You can also define your own agent behaviors and reward functions by subclassing the `Agent` class.
 
 If you encounter any issues or have any suggestions, please feel free to open an issue or a pull request on GitHub.
 
