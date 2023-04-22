@@ -1,0 +1,17 @@
+syntax = "proto3";
+package policy_buffer;
+service Server {
+    rpc GetPolicy(RollingResult) returns (Policy);
+    rpc RollingAndUpdate(RollingResult) returns (Policy);
+}
+message Policy {
+    int32 global_step = 1;
+    bytes state_dict = 2;  //
+    int32 num_workers = 3;
+}
+message RollingResult {
+    int32 id = 1;
+    int32 worker_id = 2;  // worker id
+    bytes buffer = 3; // buffer content
+    map<string, float > reward = 4; // mean reward
+}

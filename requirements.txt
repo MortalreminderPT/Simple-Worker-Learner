@@ -1,0 +1,6 @@
+grpc==1.0.0
+grpcio==1.51.3
+mlagents_envs==0.30.0
+numpy==1.23.5
+protobuf==4.22.3
+torch==1.11.0
