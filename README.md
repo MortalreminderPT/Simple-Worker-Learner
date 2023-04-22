@@ -51,4 +51,4 @@ If you encounter any issues or have any suggestions, please feel free to open an
 
 ## License
 
-Simple-Worker-Learner is released under the GPLv2 License. See the `LICENSE` file for more details.
+Simple-Worker-Learner is released under the GPL3.0 License. See the `LICENSE` file for more details.
